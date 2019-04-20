@@ -1,0 +1,38 @@
+﻿#usbody
+{
+	height: 400px;
+}
+#usleft
+{
+	width: 780px;
+	height: 400px;
+	float: left;
+}
+#usleft_top
+{
+	background-image: url(../pics/portalbox_bg.gif);
+	background-repeat: repeat-x;
+	height: 40px;
+}
+#usleft_top_one
+{
+	margin-left: 50px;
+	padding-top: 20px;
+	font-size: 17px;
+	font-weight: normal;
+}
+#usleft_center
+{
+	margin-left: 50px;
+	padding-top: 20px;
+	height: 280px;
+}
+#usleft_center table
+{
+	height: 270px;
+	width: 300px;
+}
+span
+{
+	font-size: 14px;
+}

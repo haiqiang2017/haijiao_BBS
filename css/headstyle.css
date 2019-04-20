@@ -1,0 +1,47 @@
+﻿body
+{
+	margin-left: 100px;
+}
+#header
+{
+	width: 1000px;
+	height: 100px;
+	background-image: url(../pics/bodybg.gif);
+	background-repeat: repeat-x;
+	margin-left: 100px;
+}
+#login
+{
+	position: absolute;
+	left: 102px;
+	top: 60px;
+	margin-left: 100px;
+}
+
+#banner
+{
+	background-color: #F6FAFD;
+	background-repeat: repeat-x;
+	height: 29px;
+	width: 1000px;
+	border: solid 1px #CAD9EA;
+	margin-left: 100px;
+}
+#center
+{
+	border: solid 1px gray;
+	width: 1000px;
+	margin-left: 100px;
+}
+#footer
+{
+	border: solid 1px #9DB3C5;
+	width: 1000px;
+	height: 70px;
+	background-color: #E8F3FD;
+	margin-left: 100px;
+}
+a
+{
+	text-decoration: none;
+}

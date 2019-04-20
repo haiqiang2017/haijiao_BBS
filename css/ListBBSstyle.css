@@ -1,0 +1,195 @@
+﻿
+#listhead
+{
+	color: #006699;
+	font-size: 12px;
+	font-weight: 700;
+}
+#listsmil
+{
+	font-size: 12px;
+	margin-left: 10px;
+}
+#listleft
+{
+	font-size: 12px;
+	color: Gray;
+	margin-top: 10px;
+}
+#listcontent
+{
+	background-image: url(../pics/portalbox_bg.gif);
+	background-repeat: repeat-x;
+	width: 1000px;
+	height: 50px;
+	margin-top: 5px;
+}
+#listcontent span
+{
+	position: absolute;
+	left: 230px;
+	top: 278px;
+	height: 18px;
+	width: 42px;
+	font-size: 14px;
+}
+#listcontent-right
+{
+	height: 20px;
+	width: 80px;
+	color: #006699;
+	font-size: 14px;
+	margin-left: 870px;
+	margin-top: 8px;
+	border: solid 1px #006699;
+}
+#listbody
+{
+	background-color: #F7F7F7;
+	height: 35px;
+	width: 1000px;
+	border: solid 1px E8E5E5;
+}
+#listprocl
+{
+	background-color: #E8F3FD;
+	height: 30px;
+	width: 1000px;
+}
+#listprocl-content
+{
+	background-color: White;
+	height: 35px;
+	width: 1000px;
+}
+#procl-content1
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+#procl-content1 span
+{
+	color: Red;
+	font-size: 13px;
+	font-weight: 900;
+	margin-left: 40px;
+}
+#procl-content2
+{
+	font-size: 13px;
+	margin-left: 670px;
+	width: 50px;
+	margin-top: 5px;
+}
+#procl-content3
+{
+	font-size: 14px;
+	width: 30px;
+	position: absolute;
+	left: 1000px;
+	top: 390px;
+	right: 174px;
+}
+#listput
+{
+	background-color: #E8F3FD;
+	height: 30px;
+	width: 1000px;
+}
+#listput-content
+{
+	background-color: White;
+	height: 35px;
+	width: 1000px;
+}
+#put-content1 span
+{
+	color: Red;
+	font-size: 13px;
+	font-weight: 900;
+	margin-left: 40px;
+}
+#put-content2
+{
+	font-size: 13px;
+	margin-left: 670px;
+	width: 50px;
+	margin-top: 5px;
+}
+#put-content2 span
+{
+	font-size: 10px;
+	color: Gray;
+}
+#put-content3
+{
+	font-size: 14px;
+	width: 30px;
+	position: absolute;
+	left: 1000px;
+	top: 455px;
+	right: 174px;
+}
+#listput-right
+{
+	font-size: 13px;
+	position: absolute;
+	left: 1135px;
+	top: 451px;
+	right: 174px;
+	width: 50px;
+}
+#listput-right span
+{
+	font-size: 10px;
+	color: Gray;
+}
+#listcommon
+{
+	background-color: #E8F3FD;
+	height: 30px;
+	width: 1000px;
+}
+#listcommon div
+{
+	font-size: 13px;
+	margin-left: 50px;
+	margin-top: 8px;
+}
+#listdown
+{
+	background-color: White;
+	width: 1000px;
+	height: 200px;
+	margin-top: 5px;
+}
+#listdown-left
+{
+	margin-top: 15px;
+	width: 100px;
+	float: left;
+}
+#listdown-left span
+{
+	position: absolute;
+	left: 230px;
+	top: 536px;
+	height: 18px;
+	width: 42px;
+	font-size: 14px;
+}
+#listdown-right
+{
+	height: 20px;
+	width: 80px;
+	color: #006699;
+	font-size: 14px;
+	margin-left: 870px;
+	margin-top: 18px;
+	border: solid 1px #006699;
+}
+a
+{
+	text-decoration: none;
+}

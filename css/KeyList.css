@@ -1,0 +1,50 @@
+﻿#klheader
+{
+	background-color: #EEF2FB;
+	min-height: 500px;
+}
+#klhead
+{
+	padding-left: 10px;
+	padding-top: 15px;
+}
+#klbanner
+{
+	padding-left: 10px;
+	padding-top: 20px;
+}
+#klbanner div
+{
+	background-color: #808080;
+	height: 20px;
+	text-align: center;
+	float: left;
+	border: solid 1px white;
+}
+#klmian div input
+{
+	background-color: #8CB9DB;
+	border: solid 1px #8CB9DB;
+}
+#klmian
+{
+	border: dotted 1px #808080;
+	width: 760px;
+	height: 250px;
+	margin-left: 10px;
+}
+#klfooter
+{
+	padding-top: 30px;
+	padding-left: 150px;
+}
+#klmian div
+{
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+}
+a
+{
+	text-decoration: none;
+}

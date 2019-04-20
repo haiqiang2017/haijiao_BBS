@@ -1,0 +1,11 @@
+﻿#indexbg
+{
+	width: 1000px;
+	height: 400px;
+	background-image: url( "../pics/login.jpg" );
+	background-repeat: no-repeat;
+}
+a
+{
+	text-decoration: none;
+}

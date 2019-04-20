@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="backsite.master.cs" Inherits="BBS.backStage.backsite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+    <link rel="Stylesheet" href="../css/content.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form runat=server id="form1">
+    <div id="header">
+        <img src="../pics/logo.jpg" />
+    </div>
+    <div id="banner">
+        <span style="font-size: 14px; margin-left: 20px; margin-top: 10px;">欢迎您 &nbsp &nbsp
+            管理员&nbsp &nbsp 退出</span> <span style="font-size: 14px; margin-left: 680px; margin-top: 10px;">
+                <a href="../headStage/BBSIndex.aspx">论坛首页</a> &nbsp &nbsp &nbsp<a href="Master.aspx">后台管理</a>
+            </span>
+    </div>
+    <div id="center">
+        <div class="left">
+            <ul>
+                <li><a href="#">版块管理</a>
+                    <ul>
+                        <li><a href="ModuleList.aspx?page=1">主版块设置</a></li>
+                        <li><a href="ChannelManage.aspx?page=1">小版块设置</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">用户管理</a>
+                    <ul>
+                        <li><a href="UserList.aspx?page=1">前台用户</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">发帖管理</a>
+                    <ul>
+                        <li><a href="NewTopicManage.aspx?page=1">发帖管理</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">关键字管理</a>
+                    <ul>
+                        <li><a href="KeyList.aspx?page=1">关键字设置</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">等级积分管理</a>
+                    <ul>
+                        <li><a href="LevelSet.aspx?page=1">等级积分设置</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="cph" runat="server">
+            fewfwefsefsdf
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        <div style="margin-top: 20px; float: left">
+            <span style="font-size: 12px; margin-top: 20px; margin-left: 50px;">powered by <b>Microsoft</b></span><br />
+            <span style="font-size: 12px; margin-top: 20px; margin-left: 50px;">&copy 2001-2010
+                Microsoft inc.</span>
+        </div>
+        <div style="margin-top: 20px;">
+            <span style="font-size: 12px; margin-left: 500px;"><b>江苏微软技术中心，为中国网站设计添动力 </b>| 联系我们</span><br />
+            <span style="font-size: 12px; margin-left: 420px; margin-top: 20px;">gmt+8,2010-3-24
+                08:55,processed in 0.005988 second(s),2 queries,gzip enabled</span>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

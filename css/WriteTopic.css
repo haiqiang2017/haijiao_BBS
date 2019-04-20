@@ -1,0 +1,25 @@
+﻿#up
+{
+	height: 40px;
+}
+#up span
+{
+	display: inline;
+	font-size: 14px;
+	color: #006699;
+	font-weight: bolder;
+}
+#Wtcontent
+{
+	border: solid 1px #CAD9EA;
+	background-color: #F5FAFE;
+	height: 550px;
+}
+#Wtheader
+{
+	height: 100px;
+}
+a
+{
+	text-decoration: none;
+}

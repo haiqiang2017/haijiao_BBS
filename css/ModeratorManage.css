@@ -1,0 +1,71 @@
+﻿
+#content a
+{
+    text-decoration: inderline;
+    font-size: 14px;
+}
+.toph1
+{
+    margin-top: 10px;
+}
+.span1
+{
+    font-size: 13px;
+    color: Gray;
+}
+.span2
+{
+    border: solid 1px gray;
+    font-size: 11px;
+    color: Gray;
+    padding-top: 5px;
+}
+#span3
+{
+    font-size: 14px;
+    padding-top: 50px;
+}
+.fttou
+{
+    background-image: url(../pics/newtopic.gif);
+    height: 29px;
+    width: 84px;
+    text-align: center;
+    background-repeat: no-repeat;
+    float: left;
+    line-height: 29px;
+}
+.hhsy
+{
+    margin-left: 800px;
+    text-align: right;
+    padding-top: 5px;
+}
+.alj
+{
+    background-color: White;
+    border: solid 1px #006699;
+    height: 25px;
+    width: 200px;
+    padding: 5px 6px;
+}
+.tableg
+{
+    font-size: 13px;
+    line-height: 35px;
+    text-align: left;
+    float: left;
+   height: 41px; 
+   
+}
+.tableg2
+{
+    font-size: 13px;
+    line-height: 35px;
+    padding-left: 80px;
+    color: #444444;
+    border-bottom: solid 1px #E8E8E8;
+    float: left;
+    background-color: #E8F3FD;
+    width: 917px;
+}

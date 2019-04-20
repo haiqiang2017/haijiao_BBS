@@ -1,0 +1,24 @@
+﻿#Wbup
+{
+	height: 40px;
+}
+#Wbup span
+{
+	display: inline;
+	font-size: 14px;
+	color: #006699;
+	font-weight: bolder;
+}
+#Wbcontent
+{
+	background-color: #F5FAFE;
+	height: 550px;
+}
+#Wbheader
+{
+	height: 100px;
+}
+a
+{
+	text-decoration: none;
+}

@@ -1,0 +1,102 @@
+﻿#mlheader
+{
+	background-color: #EEF2FB;
+	min-height: 500px;
+}
+#mlbody
+{
+	margin-top: 15px;
+	padding-left: 10px;
+}
+#mlbody div
+{
+	padding-left: 5px;
+}
+#mlmain
+{
+	border: dotted 1px #808080;
+	width: 760px;
+	height: 250px;
+	margin-left: 10px;
+}
+#mlfooter
+{
+	padding-top: 15px;
+	padding-left: 150px;
+}
+#mlone
+{
+	background-color: #808080;
+	width: 500px;
+	height: 20px;
+	text-align: center;
+	border: solid 1px white;
+	float: left;
+}
+#mltwo
+{
+	background-color: #808080;
+	width: 120px;
+	height: 20px;
+	text-align: center;
+	border: solid 1px white;
+	float: left;
+}
+#mlthree
+{
+	background-color: #808080;
+	width: 120px;
+	text-align: center;
+	height: 20px;
+	border: solid 1px white;
+}
+#cpnew
+{
+	width: 500px;
+	height: 20px;
+	text-align: center;
+	margin-top: 15px;
+	float: left;
+}
+#mlopen
+{
+	width: 120px;
+	height: 20px;
+	text-align: center;
+	margin-top: 15px;
+	float: left;
+}
+#mlimage
+{
+	width: 120px;
+	text-align: center;
+	height: 20px;
+	margin-top: 15px;
+}
+#dpnew
+{
+	width: 500px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	float: left;
+}
+#mlopen_one
+{
+	width: 120px;
+	height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	float: left;
+}
+#image
+{
+	width: 120px;
+	text-align: center;
+	height: 20px;
+	margin-top: 5px;
+}
+a
+{
+	text-decoration: none;
+}

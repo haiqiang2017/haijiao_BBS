@@ -1,0 +1,60 @@
+﻿#one
+{
+	width: 1000px;
+	height: 40px;
+	color: #006699;
+	background-color: #F5FAFE;
+}
+#hanzi
+{
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+#two
+{
+	width: 1000px;
+	height: 40px;
+	color: #006699;
+	background-color: #F5FAFE;
+}
+#select-cencer
+{
+	width: 1000px;
+	height: 200px;
+}
+#select-img
+{
+	width: 130px;
+	height: 130px;
+}
+#RadioButton1
+{
+	margin-top: 80px;
+	margin-left: 100px;
+	width: 25px;
+	height: 21px;
+}
+#select-img2
+{
+	width: 130px;
+	height: 130px;
+}
+#Radio1
+{
+	margin-top: 80px;
+	margin-left: 100px;
+	width: 25px;
+	height: 21px;
+}
+#end
+{
+	width: 1000px;
+	height: 40px;
+	background-color: #F1F8FE;
+}
+a
+{
+	text-decoration: none;
+}

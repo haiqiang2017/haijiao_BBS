@@ -1,0 +1,33 @@
+﻿#lgbody
+{
+	height: 400px;
+	background-image: url(../pics/portalbox_bg.gif);
+	background-repeat: repeat-x;
+}
+#lgheader
+{
+	color: #006699;
+	font-weight: bolder;
+	font-size: large;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+#lgbbsdown table
+{
+	margin-left: 200px;
+	float: left;
+	height: 200px;
+}
+#lgbbsleft
+{
+	margin-left: 500px;
+	color: #006699;
+	padding-left: 10px;
+	height: 150px;
+	border-left: solid 1px #E8E8E8;
+}
+#lgbbsleftcenter
+{
+	margin-top: 50px;
+	margin-left: 50px;
+}

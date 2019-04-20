@@ -1,0 +1,41 @@
+﻿#lsbody
+{
+	background-color: #EEF2FB;
+	height: 400px;
+}
+#lsone
+{
+	background-color: #808080;
+	width: 300px;
+	height: 20px;
+	border: solid 1px red;
+}
+#lsheader
+{
+	padding-left: 10px;
+	padding-top: 60px;
+}
+#lsheader div
+{
+	background-color: #808080;
+	height: 20px;
+	text-align: center;
+	float: left;
+	border: solid 1px white;
+}
+#lsmain
+{
+	border: dotted 1px #808080;
+	width: 760px;
+	height: 250px;
+	margin-left: 10px;
+}
+#lsfooter
+{
+	padding-top: 30px;
+	padding-left: 150px;
+}
+a
+{
+	text-decoration: none;
+}

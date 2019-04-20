@@ -1,0 +1,44 @@
+﻿#bmbody
+{
+	min-height: 500px;
+}
+#bmright
+{
+	min-height: 500px;
+	width: 820px;
+	background-color: #EEF2FB;
+}
+#bmup
+{
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#bmcenter
+{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#bmcenter div
+{
+	float: left;
+	border: solid 1px white;
+	background-color: #808080;
+	height: 20px;
+	text-align: center;
+}
+#bmright_body div
+{
+	height: 20px;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+}
+#cmfooter
+{
+	padding-top: 15px;
+	padding-left: 150px;
+}
+a
+{
+	text-decoration: none;
+}

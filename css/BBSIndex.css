@@ -1,0 +1,75 @@
+﻿#tishi
+{
+	font-size: 13px;
+	margin: 15px 0;
+}
+
+.title1
+{
+	background-image: url( '../pics/header_bg.gif' );
+	background-repeat: repeat-x;
+	color: White;
+	height: 26px;
+	padding-top: 6px;
+	border-bottom: solid 1px Gray;
+}
+.yirows
+{
+	font-size: 15px;
+	text-align: center;
+	width: 130px;
+	font-weight: bolder;
+	float: left;
+}
+.banz
+{
+	text-align: right;
+	font-size: 13px;
+	font-weight: bolder;
+	float: right;
+	padding-right: 20px;
+}
+#zhu div a
+{
+	font-size: 16px;
+	font-weight: bolder;
+	text-decoration: inderline;
+	color: Black;
+}
+#szys table td
+{
+	height: 50px;
+}
+#count div
+{
+	margin-top: 10px;
+}
+.span1
+{
+	font-size: 11px;
+	color: Gray;
+}
+#huiy
+{
+	height: 31px;
+	border: solid 1px 9DB3C5;
+	margin-top: 20px;
+	padding-left: 40px;
+	padding-top: 10px;
+	background-color: #F4F9FE;
+	border: solid 1px #9DB3C5;
+}
+#span2
+{
+	font-size: 13;
+	font-weight: 200;
+	color: Gray;
+}
+a
+{
+	text-decoration: none;
+}
+.bbsi_content_2_2
+{
+     height :42px;
+    }

@@ -1,0 +1,46 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Data.OleDb;
+
+/// <summary>
+///DB 的摘要说明
+/// </summary>
+public class DB
+{
+	public DB()
+	{
+		//
+		//TODO: 在此处添加构造函数逻辑
+		//
+	}
+    public int excutesql(string strcmd)
+    {
+        string str_connect = "Provider=SQLOLEDB.1;Password=123;Persist Security Info=True;User ID=sa;Initial Catalog=student;Data Source=.";
+        OleDbConnection conn = new OleDbConnection(str_connect);
+        conn.Open();
+        OleDbCommand cmd = new OleDbCommand(strcmd,conn);
+        int c=cmd.ExecuteNonQuery();
+        conn.Close();
+        return c;
+    }
+    public DataSet getdata(string sql)
+    {
+        string str_connect = "Provider=SQLOLEDB.1;Password=123;Persist Security Info=True;User ID=sa;Initial Catalog=student;Data Source=.";
+        OleDbConnection conn = new OleDbConnection(str_connect);
+        conn.Open();
+        OleDbCommand cmd = new OleDbCommand(sql, conn);
+        OleDbDataAdapter adp = new OleDbDataAdapter(cmd);
+        DataSet ds = new DataSet();
+        adp.Fill(ds);
+        conn.Close();
+        return ds;
+    }
+
+}

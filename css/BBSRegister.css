@@ -1,0 +1,50 @@
+﻿#Reg-body1
+{
+	width: 1000px;
+	height: 600px;
+	background-image: url(../pics/portalbox_bg.gif);
+	background-repeat: repeat-x;
+}
+#Reg-left
+{
+	width: 598px;
+	height: 600px;
+	float: left;
+}
+table
+{
+	width: 400px;
+	height: 600px;
+}
+#Reg-right
+{
+	float: right;
+	width: 400px;
+	height: 600px;
+	border: solid 1px #E8E8E8;
+}
+
+#Reg-left span
+{
+	font-size: 16px;
+	font-weight: bolder;
+	color: #006699;
+	float: left;
+	width: 74px;
+	height: 25px;
+	margin-left:80px;
+}
+#writ
+{
+	color: #006699;
+}
+#Reg-rightcenter
+{
+	float: left;
+	margin: 150px 10px;
+	width: 150px;
+}
+a
+{
+	text-decoration: none;
+}

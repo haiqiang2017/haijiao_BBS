@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  CodeBehind="headsite.master.cs" Inherits="BBS.headStage.headsite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>无标题页</title>
+    <link rel="Stylesheet" href="../css/headstyle.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+    </div>
+    <div id="login">
+        <img src="../pics/logo.jpg" /></div>
+    <div id="banner">
+        <span style="font-size: 12px; margin-left: 10px; margin-top: 10px">欢迎您&nbsp;&nbsp;<%if (username != null && username != "")
+                                                                                            {%>
+            <%=username%>
+            <%} %>
+            &nbsp;&nbsp;<a href="BBSRegister.aspx">加入会员</a>&nbsp;&nbsp;</span> <span style="font-size: 12px;
+                margin-top: 10px; margin-left: 700px"><a href="UserSpace.aspx">个人信息</a> &nbsp;&nbsp;<a
+                    href="BBSIndex.aspx"> 论坛首页</a> &nbsp;&nbsp;&nbsp;</span>
+    </div>
+    <div id="center">
+        <asp:ContentPlaceHolder ID="HeadstageContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        <div style="margin-top: 20px; float: left">
+            <span style="font-size: 16px; margin-top: 20px; margin-left: 50px;">powered by <b>Microsoft</b></span><br />
+            <span style="font-size: 12px; margin-top: 20px; margin-left: 50px; color: Gray">&copy
+                2001-2010 Microsoft inc.</span>
+        </div>
+        <div style="margin-top: 20px;">
+            <span style="font-size: 12px; margin-left: 495px;"><b>江苏微软技术中心，为中国网站设计添动力 </b>| 联系我们</span><br />
+            <span style="font-size: 12px; margin-left: 420px; margin-top: 20px; color: Gray">gmt+8,2010-3-24
+                08:55,processed in 0.005988 second(s),2 queries,gzip enabled</span>
+        </div>
+    </div>
+    <asp:HiddenField ID="hidPage" runat="server" />
+    </form>
+</body>
+</html>
